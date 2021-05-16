@@ -76,6 +76,31 @@ Docker Run can be split into two commands:
 In short,
 **Docker Run = Docker Start + Docker Run**
 
+### Docker build
+
+Build a container from Docker file (default one)
+
+```
+> docker build . 
+digest sha2256 hj123jkh142j14hjk15gk1
+steps 1/x
+...
+Successfully built 21dlawkjklbkhf (container id)
+```
+
+Build a container from a custom docker file (e.g. Dockerfile.dev)
+
+```
+> docker build -f Dockerfile.dev .
+digest sha2256 hj123jkh142j14hjk15gk1
+steps 1/x
+...
+Successfully built 21dlawkjklbkhf (container id)
+```
+
+To run container we use docker run command
+
+```docker run 21dlawkjklbkhf```
 
 ### Docker System Prune
 
