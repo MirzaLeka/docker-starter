@@ -47,7 +47,7 @@ Hello World
  usr
 ...
 ```
-
+#
 ### Docker ls
 
 Print all running containers
@@ -64,6 +64,7 @@ Print all containers ever used
 CONTAINER ID    IMAGE    COMMAND    CREATED    STATUS    PORTS    NAMES
 ceab12314dff   busybox    "ls"      x ago     Excited (0)       randomly_generated_name (or our custom one)
 ```
+#
 
 ### Docker Create & Start
 
@@ -75,6 +76,7 @@ Docker Run can be split into two commands:
 
 In short,
 **Docker Run = Docker Start + Docker Run**
+#
 
 ### Docker build
 
@@ -101,6 +103,7 @@ Successfully built 21dlawkjklbkhf (container id)
 To run container we use docker run command
 
 ```docker run 21dlawkjklbkhf```
+#
 
 ### Docker System Prune
 
