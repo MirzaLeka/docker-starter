@@ -94,7 +94,7 @@ Docker build is used to construct a Docker image from a Dockerfile.
 digest sha2256 hj123jkh142j14hjk15gk1
 steps 1/x
 ...
-Successfully built 21dlawkjklbkhf <container-id>
+Successfully built 21dlawkjklbkhf (container id)
 ```
 
 Build a container from a custom docker file (e.g. Dockerfile.dev)
@@ -109,7 +109,9 @@ Successfully built 21dlawkjklbkhf (container id)
 
 To run container we use docker run command
 
-```docker run 21dlawkjklbkhf```
+```bash
+> docker run 21dlawkjklbkhf (container id)
+```
 
 Delete all containers
 ```bash
